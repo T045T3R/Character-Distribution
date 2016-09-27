@@ -90,6 +90,6 @@ xcount=str(letters).count('x')
 ycount=str(letters).count('y')
 zcount=str(letters).count('z')
 
-tosort = [acount, bcount, ccount,dcount,ecount,fcount, gcount,hcount,icount]
+tosort = [acount, bcount, ccount,dcount,ecount,fcount, gcount,hcount,icount,jcount,kcount,lcount,mcount,ncount,ocount,pcount, qcount,rcount,scount,tcount,ucount,vcount,wcount,xcount,ycount,zcount]
 bsort(tosort, compare)
 print(tosort)
