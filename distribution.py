@@ -91,3 +91,5 @@ ycount=str(letters).count('y')
 zcount=str(letters).count('z')
 
 tosort = [acount, bcount, ccount,dcount,ecount,fcount, gcount,hcount,icount]
+bsort(tosort, compare)
+print(tosort)
