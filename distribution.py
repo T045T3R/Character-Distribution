@@ -89,3 +89,5 @@ wcount=str(letters).count('w')
 xcount=str(letters).count('x')
 ycount=str(letters).count('y')
 zcount=str(letters).count('z')
+
+tosort = [acount, bcount, ccount,dcount,ecount,fcount, gcount,hcount,icount]
