@@ -59,9 +59,6 @@ def bsort(seq, cmp):
                     sorted = False          # then the list is not sorted yet
                     seq[index-1], seq[index] = seq[index], seq[index-1] # and swap it
                     
-tosort = [4, 10, 3, -1000, 30]
-bsort(tosort, compare)
-print(tosort)
 
 acount=str(letters).count('a')
 bcount=str(letters).count('b')
