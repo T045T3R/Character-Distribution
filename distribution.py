@@ -95,4 +95,5 @@ poopy = list(zip(tosort,['a','b','c','d','e','f','g','h','i','j','k','l','m','n'
 bsort(poopy, compare)
 print(poopy)
 for x in (0 , 26):
+    print(poopy[x])
     
