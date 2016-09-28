@@ -94,3 +94,5 @@ tosort = [acount, bcount, ccount,dcount,ecount,fcount, gcount,hcount,icount,jcou
 poopy = list(zip(tosort,['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']))
 bsort(poopy, compare)
 print(poopy)
+for x in (0 , 26):
+    
