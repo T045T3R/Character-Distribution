@@ -95,5 +95,6 @@ letterorder = ([y for x,y in poopy])
 numberorder = ([x for x,y in poopy])
 
 for x in range(0 , 26):
-    print(poopy[x])
+    print(str(letterorder[x])*numberorder[x])
+    
     
