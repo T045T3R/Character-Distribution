@@ -42,10 +42,10 @@ def compare(a, b):
     """
     compare - generic comparison function for testing two elements.
     """
-    if b==a:
-        return b>=a
+    if b!=a:
+        return a<=b
     else:
-        return b<=a
+        return b>=a
 
 def bsort(seq, cmp):
     """
