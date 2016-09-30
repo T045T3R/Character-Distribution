@@ -89,6 +89,8 @@ zcount=str(letters).count('z')
 
 tosort = [acount, bcount, ccount,dcount,ecount,fcount, gcount,hcount,icount,jcount,kcount,lcount,mcount,ncount,ocount,pcount, qcount,rcount,scount,tcount,ucount,vcount,wcount,xcount,ycount,zcount]
 poopy = list(zip(tosort,['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']))
+tosort = tosort([::-1])
+poopy=poopy([::-1])
 bsort(poopy, compare)
 letterorder = ([y for x,y in poopy])
 numberorder = ([x for x,y in poopy])
