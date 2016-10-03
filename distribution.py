@@ -101,6 +101,7 @@ letterorder = ([y for x,y in poopy])
 numberorder = ([x for x,y in poopy])
 
 for x in range(0 , 26):
+    if numberorder[x]==letterorder[x+1]
     print(str(letterorder[x])*numberorder[x])
     
     
