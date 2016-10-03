@@ -114,11 +114,12 @@ for x in range(0 , 25):
             print(str(letterorder[x])*numberorder[x])
             x=x+2
         else:
-            if numberorder[x]<=numberorder[x+2]:
+            if numberorder[x]<=numberorder[x+3]:
+                print(str(letterorder[x+3])*numberorder[x+3])
                 print(str(letterorder[x+2])*numberorder[x+2])
                 print(str(letterorder[x+1])*numberorder[x+1])
                 print(str(letterorder[x])*numberorder[x])
-                x=x+2
+                x=x+3
             else:
                 print(str(letterorder[x])*numberorder[x])
     
