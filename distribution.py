@@ -94,8 +94,18 @@ zcount=str(letters).count('z')
 
 
 tosort = [acount, bcount, ccount,dcount,ecount,fcount, gcount,hcount,icount,jcount,kcount,lcount,mcount,ncount,ocount,pcount, qcount,rcount,scount,tcount,ucount,vcount,wcount,xcount,ycount,zcount]
-poopy = list(zip(tosort,['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']))
-tosort = tosort[::-1]
+poopy = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+
+nums = [x for x in range(1,27)]
+rnums = nums[::-1]
+b=(zip(tosort,rnums,letters))
+list4 = [x for x in b]
+list4.sort(reverse=True)
+c = 0
+while c < 26 and list4[c][0] != 0:
+    print(str(list4[c][2])*int(list4[c][0]))
+    c = c + 1
+
 poopy=poopy[::-1]
 bsort(poopy, compare)
 letterorder = ([y for x,y in poopy])
