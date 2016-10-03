@@ -108,9 +108,11 @@ for x in range(0 , 26):
         print(str(letterorder[x])*numberorder[x])
         x=x+1
     else:
-        if numberorder[x]<=numberorder[x+1] and:
+        if numberorder[x]<=numberorder[x+1] and numberorder[x+1]<=numberorder[x+2]:
+            print(str(letterorder[x+2])*numberorder[x+2])
             print(str(letterorder[x+1])*numberorder[x+1])
             print(str(letterorder[x])*numberorder[x])
+            x=x+2
         else:
             print(str(letterorder[x])*numberorder[x])
     
