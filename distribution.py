@@ -103,6 +103,7 @@ numberorder = ([x for x,y in poopy])
 for x in range(0 , 26):
     if numberorder[x]<=numberorder[x+1]:
         print(str(letterorder[x+1])*numberorder[x+1])
-    print(str(letterorder[x])*numberorder[x])
+        else:
+        print(str(letterorder[x])*numberorder[x])
     
     
