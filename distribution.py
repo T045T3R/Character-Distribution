@@ -102,7 +102,7 @@ numberorder = ([x for x,y in poopy])
 
 
 n=0
-for x in range(0 , 26):
+for x in range(0 , 25):
     if numberorder[x]<=numberorder[x+1]:
         print(str(letterorder[x+1])*numberorder[x+1])
         print(str(letterorder[x])*numberorder[x])
