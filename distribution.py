@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: Johannes Testorf
-Credit: Wilson Rimberg
+Credit: Wilson Rimberg Finn Hacket
 
 Assignment:
 
@@ -99,10 +99,9 @@ poopy = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r'
 nums = [x for x in range(1,27)]
 rnums = nums[::-1]
 crap=(zip(tosort,rnums,poopy))
-yey = [x for x in poopy]
+yey = [x for x in crap]
 yey.sort(reverse=True)
 c = 0
 while c < 26 and yey[c][0] != 0:
     print(str(yey[c][2])*int(yey[c][0]))
     c = c + 1
-
