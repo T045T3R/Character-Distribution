@@ -37,7 +37,7 @@ Notice about this example:
 * Letters that do not occur in the text are not listed in the output at all.
 """
 letters = input("Please enter a string of text (the bigger the better): ")
-print('The distribution of characters in "'+astring+'" is: ')
+print('The distribution of characters in "'+letters+'" is: ')
 letters = letters.lower()
 def compare(a, b):
     """
@@ -98,22 +98,11 @@ poopy = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r'
 
 nums = [x for x in range(1,27)]
 rnums = nums[::-1]
-b=(zip(tosort,rnums,poopy))
-list4 = [x for x in b]
-list4.sort(reverse=True)
+crap=(zip(tosort,rnums,poopy))
+yey = [x for x in poopy]
+yey.sort(reverse=True)
 c = 0
-while c < 26 and list4[c][0] != 0:
-    print(str(list4[c][2])*int(list4[c][0]))
+while c < 26 and yey[c][0] != 0:
+    print(str(yey[c][2])*int(yey[c][0]))
     c = c + 1
 
-poopy=poopy[::-1]
-bsort(poopy, compare)
-letterorder = ([y for x,y in poopy])
-numberorder = ([x for x,y in poopy])
-
-
-n=0
-for x in range(0 , 25):
-  print(str(letterorder[x])*numberorder[x])
-    
-    
