@@ -98,7 +98,7 @@ poopy = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r'
 
 nums = [x for x in range(1,27)]
 rnums = nums[::-1]
-b=(zip(tosort,rnums,letters))
+b=(zip(tosort,rnums,poopy))
 list4 = [x for x in b]
 list4.sort(reverse=True)
 c = 0
